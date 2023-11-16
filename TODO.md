@@ -1,0 +1,11 @@
+# TODO:
+- [x] Adicionar a funcionalidade de poder mudar as línguas para as quais as entradas serão traduzidas (adicionar, remover, ver quais são).
+- [x] Adicionar a funcionalidade de poder salvar em um TXT o output do terminal.
+- [x] Adicionar a funcionalidade de poder adicionar assuntos a serem ignorados (outros navHeads -> en). -> será explicado no README. Quem quiser, adiciona manualmente os tópicos.
+- [x] Adicionar a funcionalidade de poder retornar tradução para apenas um idioma, sem modificar os pré-selecionados (a lista).
+- [x] Fazer dele um instalador para poder ser executado pelo terminal (parcialmente executada).
+- [ ] Indentação de línguas derivadas. Ex.: Chinese: (Cantonese, Dungan, Mandarin). Fato observado: 'Hebrew' pode ser tanto língua principal como derivada de Aramaic.
+- [x] Alguns contextos não possuem tradução para as línguas selecionadas; adcionar uma mensagem para quando isso acontecer (atualmente aparece o Header e linhas vazias embaixo).
+- [x] Erro: para a entrada 'goal', o tópico descendants não foi escapado.
+- [x] Descrever melhor no README como o programa funciona: scrapping a web. Dizer que o Wiktionary em inglês segue um padrão que permite (ou facilita) que a tarefa seja feita: as tags são previsíveis etc... dizer que a entrada deve ser fornecida em letra minúsculas (com as devidas exceções). Dizer que o arquivo a ser salvo será no formato txt. "Topic filter. For each navHead title, it checks if the NavHead (div's class) does not pertain to any of the topics listed in E; if it does, this NavHead is discarded, as it is not related to the translation. If not, a further check is made to try to discard the NavHead that contains a 'false translation topic' (usually a link that leads to a page of another entry). Finally, if these conditions are met, the NavHead, which pertains to the translation, is added to the list H."
+- [] Possibilitar escrever a entrada na própria linha de comando. Fazer uma condicional de que caso não haja esse argumento, aí assim ele pede para escrever no programa.
